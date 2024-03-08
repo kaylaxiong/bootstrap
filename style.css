@@ -1,0 +1,82 @@
+:root {
+    --g-100: #26d07c;
+    --g-75: #fbb5df;
+    --r-100: #f9423a;
+    --r-75: #fa7168;
+    --blue: #94bbe9;
+    --primary-font: "Roboto", sans-serif;
+    --bold: 800;
+  }
+  
+  /* my buttons styles */
+  
+  .button-my-success {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 0.929030987394958) 100%
+    );
+    border: 1px solid var(--g-75);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 30%);
+  }
+  .button-my-success:hover {
+    border: 1px solid var(--blue);
+  }
+  body {
+    font-family: var(--primary-font);
+  }
+  .bold-my-text {
+    font-weight: var(--bold);
+  }
+  /* Button Styles */
+  .btn-primary.button-my-success.bold-my-text {
+    font-weight: bold;
+    background-color: #007bff; /* Custom primary color */
+  }
+  
+  .btn-secondary.button-my-success {
+    background-color: #6c757d; /* Custom secondary color */
+  }
+  
+  .btn-success.button-my-success {
+    background-color: #28a745; /* Custom success color */
+  }
+  /* Typography */
+  h1 {
+    font-size: 2.5rem; /* Example size for h1 */
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem; /* Example size for h2 */
+    margin-bottom: 0.5rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem; /* Example size for h3 */
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem; /* Example size for paragraphs */
+    line-height: 1.5;
+  }
+  
+  /* Component Sizes */
+  .card-small {
+    width: 12rem; /* Small size */
+  }
+  
+  .card-medium {
+    width: 18rem; /* Medium size */
+  }
+  
+  .card-large {
+    width: 24rem; /* Large size */
+  }
+  
+  /* button */
+  .btn-my-small {padding: 10px;}
+  .btn-my-medium {padding: 20px;}
+  .btn-my-large {padding: 30px;}
